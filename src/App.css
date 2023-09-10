@@ -1,0 +1,15 @@
+/*  this one is for light theme
+.subtitle{
+    color: #181818;
+    text-shadow: 10px 6px 0px #3c83f4,
+    -10px -6px 0px #62b879;
+} */
+
+.subtitle{
+    color: #DEE0DF;
+    text-shadow: 10px 6px 0px #682eb4,
+    -10px -6px 0px #3362c9;
+}
+
+
+

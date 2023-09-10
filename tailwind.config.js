@@ -1,21 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  
+  darkMode:"class",
   theme: {
     extend: {
       fontFamily: {
-        merriweather: "Merriweather",
         phudu: 'Phudu'
       },
       colors: {
-        "black-bg": "#211F20",
-        "white-bg": "#DEE0DF",
-        "green-light": "#7DE3D4",
-        "blue-light": "#7CB9FF",
-        "violet-light": "#893DEC",
-        "green-dark": "419b85",
-        "blue-dark": "#33658A",
-        "violet-dark": "#4D2482",
+        "pro-black": "#211F20",
+        "pro-white": "#DEE0DF",
+        "pro-gray": "#848478",
+        "pro-green": "#85edac",
+        "pro-blue": "#3c83f4",
+        "pro-violet": "#9035ea",
+        "pro-oscure-green": "#62b879",
+        "pro-oscure-blue": "#3362c9",
+        "pro-oscure-violet": "#682eb4",
       }
     },
   },
